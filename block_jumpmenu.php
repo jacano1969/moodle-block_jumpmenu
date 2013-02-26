@@ -48,7 +48,7 @@ class block_jumpmenu extends block_base {
 
 
     if ($course->format == 'topics' || $course->format == 'section') {
-       	$format = 'topic';
+       	$format = 'section';
     }elseif($course->format == 'topcoll'){
         $format = 'ctopics';
     }elseif($course->format == 'weekcoll'){
